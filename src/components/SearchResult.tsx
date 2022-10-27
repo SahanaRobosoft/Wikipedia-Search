@@ -6,7 +6,8 @@ type SearchResultType = {
 };
 
 const SearchResult = ({ result }: SearchResultType) => {
-  const [query, search, link] = result;
+  const [query, search, details, link] = result;
+
   return (
     <div className="mt-2">
       {query && <h3>Search results for "{query}"</h3>}
