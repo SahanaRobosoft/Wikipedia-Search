@@ -9,7 +9,7 @@ import SearchResult from "./SearchResult";
 const BASE_URL =
   "https://en.wikipedia.org/w/api.php?origin=*&action=opensearch&search=";
 
-export type Result = [string, string[], string[], string[]];
+export type Result = [string, string[], string[]];
 
 const Search = () => {
   const [search, setSearch] = useState("");
